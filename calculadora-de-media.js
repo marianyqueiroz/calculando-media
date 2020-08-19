@@ -8,7 +8,8 @@ const nota4 = input.question('E a quarta nota, coloca aqui?')
 const nota5 = input.question('Nesse momento tenho certeza que estou tao nervosa quanto voce! Bora la, me conta o valor da tua quinta nota!')
 const nota6 = input.question('Massa!!! Agora é o momento decisivo, coloque a sua sexta nota aqui, cruze os dedos e vamos la!')
 
-const media = (parseFloat(nota1) + parseFloat(nota2) + parseFloat(nota3) + parseFloat(nota4) + parseFloat(nota5) + parseFloat(nota6) / 6)
+const soma = (parseFloat(nota1) + parseFloat(nota2) + parseFloat(nota3) + parseFloat(nota4) + parseFloat(nota5) + parseFloat(nota6))
+const media = soma / 6
 const resultado = media.toFixed(2)
 
 if (resultado >=7){
